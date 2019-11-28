@@ -8,7 +8,7 @@ import { PokemonService } from './pokemon.service';
 })
 export class AppComponent {
 
-  pokemon: {};
+  pokemon: any;
   pokemons: any[] = [];
   
   constructor(private service: PokemonService) {
